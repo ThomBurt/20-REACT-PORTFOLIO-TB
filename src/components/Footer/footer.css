@@ -1,0 +1,12 @@
+.icons {
+    font-size: 40px;
+    color: white;
+    margin: 20px;
+}
+
+.icons:hover {
+    color: #A8577E;
+    cursor: pointer;
+    transform: scale(1.1); 
+    transition: all .2s ease-in-out; 
+}

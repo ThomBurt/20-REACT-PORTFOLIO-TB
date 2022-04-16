@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { capitalizeFirstLetter } from '../../utils/helpers';
-import coverImage from '../../assets/images/tb-black.png';
+import logoImage from '../../assets/images/tb-white.png';
 
 function Nav(props) {
   const {
@@ -19,7 +19,7 @@ function Nav(props) {
     <header className="flex-row px-1">
       <h2>
         <a data-testid="link" href="/">
-          <img src={coverImage} className="my-2" style={{ width: "15%", margin: "10px" }} alt="tb-logo" />
+          <img src={logoImage} className="my-2" style={{ width: "15%", margin: "10px" }} alt="tb-logo" />
         </a>
       </h2>
       <nav>

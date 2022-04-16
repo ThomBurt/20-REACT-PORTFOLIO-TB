@@ -1,4 +1,5 @@
 import React from 'react';
+import thomImage from '../../assets/images/thom.png';
 // import coverImage from '../../assets/cover/cover-image.jpg';
 function About() {
   return (
@@ -12,6 +13,7 @@ function About() {
         Powered by VS Code and English Breakfast Tea, you can be assured that your project is in the best hands with me.<br></br>
         Have an idea for a project? Please don't hesitate in reaching out to me, I'd love to work with you!
         </p>
+        <img src={thomImage} className="my-2" style={{ width: "25%", margin: "10px" }} alt="tb-logo" />
       </div>
     </section>
   );
