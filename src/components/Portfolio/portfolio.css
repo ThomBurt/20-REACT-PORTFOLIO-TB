@@ -1,0 +1,20 @@
+.portfolio {
+    display: flex;
+    align-items: center;
+}
+
+h1{
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+h3 {
+    margin-left: 10px;
+}
+
+.container {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
