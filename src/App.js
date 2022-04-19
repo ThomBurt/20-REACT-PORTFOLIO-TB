@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import About from "./components/About";
-//import Portfolio from "./components/Portfolio";
+import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
 
 
@@ -15,8 +15,8 @@ function App() {
 		switch (currentTab) {
 			case "about":
 				return <About />;
-			// case "portfolio":
-			// 	return <Portfolio />;
+			case "portfolio":
+				return <Portfolio />;
 			case "contact":
 				return <Contact />;
 			default:

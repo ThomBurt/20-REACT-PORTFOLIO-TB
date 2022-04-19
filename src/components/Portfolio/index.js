@@ -1,6 +1,6 @@
 import React from 'react';
 import Project from '../Project';
-import './portfolio.css';
+import './portfolio.css'
 
 
 function Portfolio() {
@@ -15,21 +15,21 @@ function Portfolio() {
 		{
 			name: 'Songwriters Lounge',
 			description:
-				'A PODCAST FOR ALL SONGWRITERS, MUSICIANS AND PRODUCERS FROM ALL OVER THE WORLD..',
+				'A podcast for all songwriters, musicians and producers from all over the world!',
 			image: 'sl.png',
 			deployed: 'https://vast-lake-01153.herokuapp.com/',
 		},
 		{
 			name: 'Plant Pal',
 			description:
-				'A HOUSE-PLANT BASED SOCIAL MEDIA CHANNEL TO MAKE FRIENDS, POST TIPS AND TRICKS AND LEARN HOW TO TAKE CARE OF YOUR PLANT. UTILIZING THE YELP API TO FIND YOUR NEAREST PLANT STORES.',
+				'A house-plant based social media channel to make friends, post tips and tricks and learn how to take care of your plant.',
 			image: 'plant-pal.jpg',
 			deployed: 'https://plant-pal-project.herokuapp.com/',
 		},
 		{
 			name: 'Continu.us',
 			description:
-				'AN E-COMMERCE SITE, FEATURING PRODUCTS SOLD FROM A COMMERCIAL ELECTRONICS COMPANY.',
+				'An e-commerce website built for this company to market and sell their products.',
 			image: 'continuus1.png',
 			deployed: 'https://continu.us/',
 		},
@@ -45,7 +45,7 @@ function Portfolio() {
 	return (
 		<section>
 			<div className="center">
-				<h1 className="page-header">My Portfolio</h1>
+				<h1 className="page-header" style={{ textDecoration: "underline", textAlign: "center" }}>My Portfolio</h1>
 			</div>
 			<div>
 				<ul className="flex-row mobile-row">
@@ -67,9 +67,6 @@ function Portfolio() {
 				<ul className="flex-row mobile-row">
 					<li className="padding">
 						<Project projects={projects[4]}></Project>
-					</li>
-					<li className="padding">
-						<Project projects={projects[5]}></Project>
 					</li>
 				</ul>
 			</div>

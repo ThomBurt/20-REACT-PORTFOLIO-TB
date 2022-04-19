@@ -7,7 +7,7 @@ import "./about.css"
 
 function About() {
   return (
-    <section className="my-1 ">
+    <section className="my-1 " style={{ textAlign: "center" }}>
       <h1 id="about">Nice to meet you!</h1>
       <div className="my-2">
         <p>
@@ -16,7 +16,7 @@ function About() {
         Powered by VS Code and English Breakfast Tea, you can be assured that your project is in the best hands with me.<br></br>
         Have an idea for a project? Please don't hesitate in reaching out to me, I'd love to work with you!
         </p>
-        <img src={thomImage} className="my-2" style={{ width: "25%", margin: "10px" }} alt="tb-logo" />
+        <img src={thomImage} className="my-2" style={{ width: "400px", margin: "10px" }} alt="tb-logo" />
       </div>
     </section>
   );
