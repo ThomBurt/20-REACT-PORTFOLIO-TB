@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/20-REACT-PORTFOLIO-TB/static/css/main.7e92557a.css",
+    "main.js": "/20-REACT-PORTFOLIO-TB/static/js/main.c4adc960.js",
+    "static/js/787.51972ac4.chunk.js": "/20-REACT-PORTFOLIO-TB/static/js/787.51972ac4.chunk.js",
+    "static/media/date-night.png": "/20-REACT-PORTFOLIO-TB/static/media/date-night.c96c9065e540525a0c1c.png",
+    "static/media/sl.png": "/20-REACT-PORTFOLIO-TB/static/media/sl.ee84449da709f480ac78.png",
+    "static/media/weather-1.jpg": "/20-REACT-PORTFOLIO-TB/static/media/weather-1.34210253eedb52952c0b.jpg",
+    "static/media/ThomBurtResume.pdf": "/20-REACT-PORTFOLIO-TB/static/media/ThomBurtResume.cc35df580cb7df7fa67b.pdf",
+    "static/media/run-buddy.png": "/20-REACT-PORTFOLIO-TB/static/media/run-buddy.839050dd186eb46e808f.png",
+    "static/media/continuus1.png": "/20-REACT-PORTFOLIO-TB/static/media/continuus1.a6509a65fde5272051a5.png",
+    "static/media/dinner-spinner.png": "/20-REACT-PORTFOLIO-TB/static/media/dinner-spinner.fed47e0deffe82ba9824.png",
+    "static/media/thom.png": "/20-REACT-PORTFOLIO-TB/static/media/thom.b821d019ae5a0513ef23.png",
+    "static/media/plant-pal.jpg": "/20-REACT-PORTFOLIO-TB/static/media/plant-pal.c6442ecea9fbac915200.jpg",
+    "static/media/tb-black.png": "/20-REACT-PORTFOLIO-TB/static/media/tb-black.45798733b6e723ca4a45.png",
+    "static/media/tb-white.png": "/20-REACT-PORTFOLIO-TB/static/media/tb-white.c68ced7ed32f832152de.png",
+    "static/media/continuus.png": "/20-REACT-PORTFOLIO-TB/static/media/continuus.0066af45c9808e888a67.png",
+    "index.html": "/20-REACT-PORTFOLIO-TB/index.html",
+    "main.7e92557a.css.map": "/20-REACT-PORTFOLIO-TB/static/css/main.7e92557a.css.map",
+    "main.c4adc960.js.map": "/20-REACT-PORTFOLIO-TB/static/js/main.c4adc960.js.map",
+    "787.51972ac4.chunk.js.map": "/20-REACT-PORTFOLIO-TB/static/js/787.51972ac4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7e92557a.css",
+    "static/js/main.c4adc960.js"
+  ]
+}
