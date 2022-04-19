@@ -1,55 +1,80 @@
-import React from "react";
+import React from 'react';
+import Project from '../Project';
 import './portfolio.css';
-import dinnerSpinner from "../../assets/images/dinner-spinner.png";
-import plantPal from "../../assets/images/plant-pal.jpg"
-import weather from "../../assets/images/weather-1.jpg"
-import songwritersLounge from "../../assets/images/sl.png"
-import continuus from "../../assets/images/continuus.png"
-// import '../styles/Portfolio.css';
 
-function Portfolio(props) {
-    return (
-        <div className="portfolio" id="portfolio">
-            <h1>Portfolio</h1>
-            
-            <div className="container">
-                <a href="https://thomburt.github.io/The-Dinner-Spinner/">
-                <img src={dinnerSpinner} alt="dinnerSpinner" style={{ width: "100px" }}></img>
-                </a>
-                <h3>Dinner Spinner</h3>
-            </div>
 
-            <div className="container">
-                <a href="https://continu.us/">
-                <img src={continuus} alt="continuus" style={{ width: "100px" }}></img>
-                </a>
-                <h3>Continu.us</h3>
-            </div>
+function Portfolio() {
+	const projects = [
+		{
+			name: 'Dinner Spinner',
+			description:
+				'An app that gives you a local dinner spot at random and tracks your dinner history.',
+			image: 'dinner-spinner.png',
+			deployed: 'https://thomburt.github.io/The-Dinner-Spinner/',
+		},
+		{
+			name: 'Songwriters Lounge',
+			description:
+				'A PODCAST FOR ALL SONGWRITERS, MUSICIANS AND PRODUCERS FROM ALL OVER THE WORLD..',
+			image: 'sl.png',
+			deployed: 'https://vast-lake-01153.herokuapp.com/',
+		},
+		{
+			name: 'Plant Pal',
+			description:
+				'A HOUSE-PLANT BASED SOCIAL MEDIA CHANNEL TO MAKE FRIENDS, POST TIPS AND TRICKS AND LEARN HOW TO TAKE CARE OF YOUR PLANT. UTILIZING THE YELP API TO FIND YOUR NEAREST PLANT STORES.',
+			image: 'plant-pal.jpg',
+			deployed: 'https://plant-pal-project.herokuapp.com/',
+		},
+		{
+			name: 'Continu.us',
+			description:
+				'AN E-COMMERCE SITE, FEATURING PRODUCTS SOLD FROM A COMMERCIAL ELECTRONICS COMPANY.',
+			image: 'continuus1.png',
+			deployed: 'https://continu.us/',
+		},
+		{
+			name: 'Weather Dashboard',
+			description:
+				'A weather dashboard that shows current weather and five-day weather forecast for any city.',
+			image: 'weather-1.jpg',
+			deployed: 'https://thomburt.github.io/weather-dashboard-TB/',
+		},	
+	];
 
-            <div className="container">
-                <a href="https://plant-pal-project.herokuapp.com/">
-                <img src={plantPal} alt="Plant Pal" style={{ width: "100px" }}></img>
-                </a>
-                <h3>Plant Pal</h3>
-            </div>
-
-            <div className="container">
-                <a href="https://thomburt.github.io/weather-dashboard-TB/">
-                  <img src={weather} alt="weather" style={{ width: "100px" }}></img>
-                </a>
-                <h3>Weather App</h3>
-            </div>
-
-            <div className="container">
-                <a href="https://vast-lake-01153.herokuapp.com/">
-                    <img src={songwritersLounge} alt="songwritersLounge" style={{ width: "100px" }}></img>
-                </a>
-                <h3>Songwriters Lounge</h3>
-            </div>
-         
-
-        </div>
-    )
-};
+	return (
+		<section>
+			<div className="center">
+				<h1 className="page-header">My Portfolio</h1>
+			</div>
+			<div>
+				<ul className="flex-row mobile-row">
+					<li className="padding">
+						<Project projects={projects[0]}></Project>
+					</li>
+					<li className="padding">
+						<Project projects={projects[1]}></Project>
+					</li>
+				</ul>
+				<ul className="flex-row mobile-row">
+					<li className="padding">
+						<Project projects={projects[2]}></Project>
+					</li>
+					<li className="padding">
+						<Project projects={projects[3]}></Project>
+					</li>
+				</ul>
+				<ul className="flex-row mobile-row">
+					<li className="padding">
+						<Project projects={projects[4]}></Project>
+					</li>
+					<li className="padding">
+						<Project projects={projects[5]}></Project>
+					</li>
+				</ul>
+			</div>
+		</section>
+	);
+}
 
 export default Portfolio;
