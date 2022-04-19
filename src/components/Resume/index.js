@@ -7,7 +7,7 @@ function Resume() {
 				<h1 className="page-header" style={{ textDecoration:"underline" }}>My Resumé</h1>
 			</div>
 			<div className="bottom-spacing" style={{ textAlign: "center" }}>
-                <a href={("https://ucarecdn.com/07e33b70-df75-4245-a0e1-218ad5664ce2/ThomBurtResume.pdf")} >
+                <a target="_blank" rel="noopener noreferrer" href={("https://ucarecdn.com/07e33b70-df75-4245-a0e1-218ad5664ce2/ThomBurtResume.pdf")} >
 					<h4 style={{ textDecoration:"underline" }}>View my Resumé by Clicking here!</h4>
 				</a>
                 <a href={require("../../assets/files/ThomBurtResume.pdf")} download>

@@ -1,9 +1,12 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import thomImage from '../../assets/images/thom.png';
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import { faYoutube, faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import "../Footer/footer.css"
 import "./about.css"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 function About() {
 
@@ -17,6 +20,14 @@ function About() {
         Powered by VS Code and English Breakfast Tea, you can be assured that your project is in the best hands with me.<br></br>
         Have an idea for a project? Please don't hesitate in reaching out to me, I'd love to work with you!
         </p>
+        <div>
+                <a href="https://github.com/ThomBurt">
+                <FontAwesomeIcon icon={faGithub} className="icons"></FontAwesomeIcon>
+                </a>
+                <a href="https://www.linkedin.com/in/thomburt/">
+                <FontAwesomeIcon icon={faLinkedin} className="icons"></FontAwesomeIcon>
+                </a>
+			</div>
         <img src={thomImage} className="my-2" style={{ width: "400px", margin: "10px" }} alt="tb-logo" />
       </div>
     </section>
