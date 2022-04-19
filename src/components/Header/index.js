@@ -1,18 +1,23 @@
 import React from "react";
-// import {ReactComponent as Logo} from '../../assets/images/tb-black.png'
-import'./header.css';
+import Nav from "../Nav";
+import thomLogo from '../../assets/images/tb-white.png';
 
-const Header = () => {
-    return(
-        <nav>
-            <div className="div-header">
-                <div className="div-logo">
-                   <h1>HELLO</h1>>
-                </div>
-            </div>
-        </nav>
-    )
+function Header(props) {
+	const { currentTab, setCurrentTab } = props;
+
+	return (
+		<header>
+			<div>
+            <img src={thomLogo} className="my-2" style={{ width: "250px", margin: "10px" }} alt="tb-logo" />
+			</div>
+			<div>
+				<Nav
+					currentTab={currentTab}
+					setCurrentTab={setCurrentTab}
+				></Nav>
+			</div>
+		</header>
+	);
 }
-
 
 export default Header;
