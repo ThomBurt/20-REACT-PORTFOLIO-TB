@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import thomImage from '../../assets/images/thom.png';
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import { faYoutube, faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
@@ -6,9 +6,10 @@ import "../Footer/footer.css"
 import "./about.css"
 
 function About() {
+
   return (
     <section className="my-1 " style={{ textAlign: "center" }}>
-      <h1 id="about">Nice to meet you!</h1>
+      <h1 id="about">Nice to meet you! I'm Thom </h1>
       <div className="my-2">
         <p>
         My name is Thom Burt, originally from London, UK I now live in Indianapolis, USA. <br></br>
