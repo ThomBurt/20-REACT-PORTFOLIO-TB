@@ -3,15 +3,12 @@ import Nav from './components/Nav';
 import About from './components/About';
 import ContactForm from './components/Contact';
 import Portfolio from './components/Portfolio/Portfolio';
-// import Header from './components/Header';
 import Footer from './components/Footer';
 
 function App() {
   const [categories] = useState([
-    {
-      name: 'Thom Burt Portfolio',
-      description: 'A portfolio of all of my work',
-    },
+
+    { name: 'portfolio', description: 'portfolio of my work' },
   ]);
 
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
